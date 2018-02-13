@@ -1,4 +1,4 @@
-package com.rocopat.swoosh
+package com.rocopat.swoosh.Controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
@@ -41,6 +41,4 @@ open class BaseActivity : AppCompatActivity() {
         Log.d(TAG, "${javaClass.simpleName} OnDestroy")
         super.onDestroy()
     }
-
-    //ss
 }
